@@ -6,7 +6,7 @@ define(function() {
             "jquery": "lib/jquery-2.2.3.min",
             "backbone": "lib/backbone-min",
             "underscore": "lib/underscore-min",
-            "todo": "views/list"
+            "text": "lib/text"
         },
         shim: {
             "backbone": {
