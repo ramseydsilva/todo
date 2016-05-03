@@ -18,6 +18,15 @@ define([
         list.collection.add([{
             name: "Print certificate"
         }]);
+
+        $("button").on("click", function() {
+            var val = $("input").val();
+            if (val) {
+                list.collection.add({
+                   name: val
+                });
+            }
+        });
         
     });
 
